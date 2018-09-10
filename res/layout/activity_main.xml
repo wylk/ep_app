@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" 
+    tools:context=".SplashActivity" >
+    
+   <include layout="@layout/activity_title" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="35sp" >
+        <com.tencent.smtt.sdk.WebView
+		        android:id="@+id/webView"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent" />
+       <!--  <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"/> -->
+            
+    </FrameLayout>
+
+</RelativeLayout>
